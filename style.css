@@ -1,17 +1,31 @@
 
 
 
-
-
-
-
-
-
 /* ---------------planet stuff campaigns---------------- */
-.planet-block
+.planet-block 
 {
     background-image: linear-gradient(to right, grey, rgb(60, 60, 60));
     width: 30%;
     height: 650px;
     text-align: center;
+}
+.cities-block-campaigns 
+{
+    max-height: 200px;
+    overflow-y: auto;
+}
+.city-liberation-bonus-campaigns, .city-resistance-campaigns, .helldivers-number-city-campaigns
+{
+    display: inline-block;   
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    padding: 0 8px;          
+    z-index: 1;
+}
+.city-block-campaign
+{
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
 }
