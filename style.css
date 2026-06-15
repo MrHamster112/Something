@@ -1,76 +1,17 @@
-body 
-{ 
-    background: #0a0b0d; 
-    color: #d0ddf0; 
-    font-family: monospace; 
-    padding: 20px; 
-}
-h2   
-{ 
-    color: #f5c518; 
-    margin: 24px 0 6px; 
-    padding-bottom: 4px; 
-}
-.MO-text
-{ 
-    color: #f5c518; 
-    margin-left: 10px;
-    margin-top: 0px;
-}
-pre  
-{ 
-    background: #10131a; 
-    border: 1px solid #2a3550; 
-    border-radius: 4px;
-    padding: 5px; 
-    white-space: pre-wrap; 
-    word-break: break-word; 
-    font-size: 0.8rem; 
-    line-height: 1.6; 
-}
-.ok  
-{ 
-    color: #22c55e;
-}
-.err 
-{ 
-    color: #ff4444; 
-}
-.warn
-{ 
-    color: #f97316; 
-}
-.dim 
-{ 
-    color: #7a8aaa; 
-}
-#status-bar 
-{ 
-    margin-bottom: 20px; font-size: 0.85rem; 
-}
-#refresh-button 
+
+
+
+
+
+
+
+
+
+/* ---------------planet stuff campaigns---------------- */
+.planet-block
 {
-    background: #1e2535; 
-    border: 1px solid #f5c518; 
-    color: #f5c518;
-    font-family: monospace; 
-    font-size: 0.8rem; 
-    padding: 6px 14px;
-    cursor: pointer; 
-    border-radius: 3px; 
-    margin-right: 10px;
-}
-#refresh-button:hover 
-{ 
-    background: rgba(245,197,24,0.1); 
-}
-#server-select 
-{ 
-    font-family: monospace;
-    font-size: 0.8rem; 
-    background: #1e2535;
-    color: #d0ddf0; 
-    border: 1px solid #2a3550; 
-    padding: 5px 8px; 
-    border-radius: 3px;
+    background-image: linear-gradient(to right, grey, rgb(60, 60, 60));
+    width: 30%;
+    height: 650px;
+    text-align: center;
 }
