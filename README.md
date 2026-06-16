@@ -1,20 +1,4 @@
-# Helldivers 2 — API Data Explorer
 
-A single-file starter (`index.html`) that downloads everything from the
-Helldivers 2 community APIs every 60 seconds and dumps it as plain text.
-All data lands in one object — `apiData` — and a set of render functions
-write it onto the page. Build your own site by replacing the render
-functions with your own HTML.
-
-> **Note on line numbers:** they point into `index.html` as of this commit.
-> If you add or remove lines above a function, the numbers below shift.
-
----
-
-## ⭐ RENDER FUNCTIONS — the ones that write information on the page
-
-These all read from `apiData` and write plain text into a `<pre>` element.
-**Replace these with your own HTML to build your site.**
 
 | Line | Function | Writes to | What it shows |
 |-----:|----------|-----------|---------------|
